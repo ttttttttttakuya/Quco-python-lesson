@@ -1,69 +1,10 @@
 # Quco Python基礎学習
 
-# 環境構築
-
-## VSCodeのインストール
-1. 以下にアクセスしてVSCodeのインストーラをダウンロードしてくる<br>
-https://code.visualstudio.com/download
-
-1. インストーラを起動し、すべてデフォルトのままにしてインストールを実行する。
-
-## VSCodeを日本語化する
-1. VSCode上で拡張機能を開く<br>
-VSCodeの左側に表示されるアクティビティバーに以下のようなアイコンが表示されているのでこのアイコンをクリックする  <br>
-![image](https://github.com/user-attachments/assets/00568bf0-8283-4905-aea0-c59e7bbb73cd)
-
-3. 検索ウィンドウで「Japanese Language Pack for Visual Studio Code」を入力し拡張機能をインストールする
-4. VSCodeを一旦終了して、再度起動する。
-
-## Pythonをインストールする
-1. 以下にアクセスしてPythonのインストーラをダウンロードしてくる。
-https://code.visualstudio.com/download
-![image](https://github.com/user-attachments/assets/e877431b-121f-4ad4-8fbf-de8e8dc167b8)
-
-1. 以下にアクセスしてPythonのインストーラをダウンロードしてくる。<br>
-Add python.exe to PATHにチェックを入れて「Install Now」を選択する。<br>
-![image](https://github.com/user-attachments/assets/51b7f9d1-c592-4047-9f5f-6abaffdc7adc)<br>
-インストールが完了すると以下のような画面が表示される。
-![image](https://github.com/user-attachments/assets/d3e1f6e1-671e-443b-895c-5425c91f93b7)
-
-## VSCodeにPythonの拡張機能をインストールする
-1. VSCode上で拡張機能を開く
-2. 検索ウィンドウで「Python Extension Pack」を入力し拡張機能をインストールする。
-
-## VSCode上でターミナル(Powershell)を開いてPythonが実行できるか確認する。
-1. ctl + shit + @で新規ターミナルを開く。
-![image](https://github.com/user-attachments/assets/7abbd839-3945-4929-b6ad-6c7fab906dff)<br>
-開かれたターミナルがPowershellではなかった場合、ターミナルが開かれてる状態で
-右側の「＋」を選択すると、起動したいターミナルを選択できるのでここから選択して新たにターミナルを起動する。<br>
-![image](https://github.com/user-attachments/assets/76a7ea2e-7ea7-46ef-ab2a-4e528d34f686)
-
-2. Pythonのコマンドを実行する。
-```bash
-python --version
-```
-***実行例***
-```bash
-PS C:\Users\ta-yamamura> python --version
-Python 3.12.4
-```
-上記のようにバージョンが返ってくればOK
-
-## ソースコードを作成して実行してみる
-1. Pythonのコードを実行してみる
-VSCode上部に表示されているメニューバーから「ファイル」を選択。<br>
-その後の一覧から、「新しいファイル」を選択し以下のファイルを作成し任意の場所に保存する。<br>
-***ファイル名:*** helloworld.py<br>
-***保存先:*** 任意のパス<br>
-
-2. 作成したpythonファイルにコードをコピペする。<br>
-以下、コードをファイルにコピペしたら「ctl + shift + s」でファイルを保存する<br>
-```helloworld.py
-print("hello world")
-```
-3. コードを実行する<br>
-作成したPythonファイルを開いてる状態で、VSCode上の右上にある再生ボタンをクリックしてコードを実行する。<br>
-![image](https://github.com/user-attachments/assets/e5641659-d91c-469c-9614-040549af8503)
-正常に処理されれば、実行時に生成されたターミナル上に「hello world」と出力される。
-![image](https://github.com/user-attachments/assets/8defb749-1796-47e8-9ba3-73c549ee5aef)
-
+## 学習内容
+- 環境構築
+- Lesson1 基本的なデータ型について
+- Lesson2 配列について
+- Lesson3 プログラムの基本構造（順次、分岐、反復）
+- Lesson4 関数とは何か？
+- Lesson5 モジュールとは何か？
+- Lesson6 おみくじアプリ作成
